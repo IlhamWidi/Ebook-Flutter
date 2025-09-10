@@ -41,46 +41,54 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'your-web-api-key',
-    appId: 'your-web-app-id',
-    messagingSenderId: 'your-sender-id',
-    projectId: 'your-project-id',
-    authDomain: 'your-project-id.firebaseapp.com',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyCjTdM0VQT6t-veYz48lNC-Q5DaJ7gliPI',
+    appId: '1:547231588820:web:2d00f5b06ad7f5b7d7f641',
+    messagingSenderId: '547231588820',
+    projectId: 'development-46fea',
+    authDomain: 'development-46fea.firebaseapp.com',
+    databaseURL: 'https://development-46fea-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'development-46fea.firebasestorage.app',
+    measurementId: 'G-BB0NNPVY0E',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'your-android-api-key',
-    appId: 'your-android-app-id',
-    messagingSenderId: 'your-sender-id',
-    projectId: 'your-project-id',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyDoSwCT5puFqZOsKy2noHBRsB9pZ0grfWI',
+    appId: '1:547231588820:android:dee0b8896fc674a3d7f641',
+    messagingSenderId: '547231588820',
+    projectId: 'development-46fea',
+    databaseURL: 'https://development-46fea-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'development-46fea.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'your-ios-api-key',
-    appId: 'your-ios-app-id',
-    messagingSenderId: 'your-sender-id',
-    projectId: 'your-project-id',
-    storageBucket: 'your-project-id.appspot.com',
-    iosBundleId: 'com.example.ebook_job',
+    apiKey: 'AIzaSyAUnfwX4QV59E4mwRQgiu8FFrFyLRXJxHE',
+    appId: '1:547231588820:ios:766411c754ddf4b6d7f641',
+    messagingSenderId: '547231588820',
+    projectId: 'development-46fea',
+    databaseURL: 'https://development-46fea-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'development-46fea.firebasestorage.app',
+    iosBundleId: 'com.example.ebookJob',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'your-macos-api-key',
-    appId: 'your-macos-app-id',
-    messagingSenderId: 'your-sender-id',
-    projectId: 'your-project-id',
-    storageBucket: 'your-project-id.appspot.com',
-    iosBundleId: 'com.example.ebook_job',
+    apiKey: 'AIzaSyAUnfwX4QV59E4mwRQgiu8FFrFyLRXJxHE',
+    appId: '1:547231588820:ios:766411c754ddf4b6d7f641',
+    messagingSenderId: '547231588820',
+    projectId: 'development-46fea',
+    databaseURL: 'https://development-46fea-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'development-46fea.firebasestorage.app',
+    iosBundleId: 'com.example.ebookJob',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'your-windows-api-key',
-    appId: 'your-windows-app-id',
-    messagingSenderId: 'your-sender-id',
-    projectId: 'your-project-id',
-    authDomain: 'your-project-id.firebaseapp.com',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyCjTdM0VQT6t-veYz48lNC-Q5DaJ7gliPI',
+    appId: '1:547231588820:web:a2aad00d1c918801d7f641',
+    messagingSenderId: '547231588820',
+    projectId: 'development-46fea',
+    authDomain: 'development-46fea.firebaseapp.com',
+    databaseURL: 'https://development-46fea-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'development-46fea.firebasestorage.app',
+    measurementId: 'G-010J73555F',
   );
+
 }
